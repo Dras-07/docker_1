@@ -5,7 +5,7 @@ pipeline{
       {
           steps{
               sh """
-              docker build -t hello there .
+              docker build -t hello_there .
               """
           }
       }
@@ -14,7 +14,7 @@ pipeline{
       {
           steps{
                 sh """
-                docker run --rm hello_there .
+               docker build -t hello_there .
                 """
           }
       }
