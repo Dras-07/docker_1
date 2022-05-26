@@ -5,7 +5,7 @@ pipeline{
       {
           steps{
               sh """
-              docker create container1 
+              
               docker build -t hello_there .
               """
           }
@@ -15,7 +15,7 @@ pipeline{
       {
           steps{
                 sh """
-               docker create container1 
+                
                docker build -t hello_there .
                 """
           }
